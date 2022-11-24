@@ -15,7 +15,7 @@
 
 @media (max-width: 720px) {
     .cover__title {
-        font-size: calc(100vw * 0.1);;
+        font-size: calc(100vw * 0.1);
         line-height: 1.09;
     }
 }
