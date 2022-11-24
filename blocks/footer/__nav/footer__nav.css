@@ -1,0 +1,12 @@
+.footer__nav {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .footer__nav {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 32px;
+    }
+}
