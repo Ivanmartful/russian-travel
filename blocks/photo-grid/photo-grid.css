@@ -1,20 +1,20 @@
 .photo-grid {
     margin: 0 auto 0;
-    padding: 92px 0 0;
+    padding: 92px 48px 0;
     max-width: 1184px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 14px; 
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .photo-grid {
         padding: 88px 24px 0;
         grid-template-columns: repeat(2, 1fr);
@@ -22,10 +22,10 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .photo-grid {
         padding: 64px 16px 0;
         grid-template-columns: repeat(1, 1fr);
-        gap: 16px; 
+        gap: 12px;
     }
 }

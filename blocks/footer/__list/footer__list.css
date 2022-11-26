@@ -1,0 +1,15 @@
+.footer__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+
+@media (max-width: 767px) {
+    .footer__list {
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 32px;
+    }
+}
